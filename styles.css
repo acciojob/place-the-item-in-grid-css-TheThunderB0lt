@@ -1,2 +1,26 @@
+.holder {
+	width: 200px;
+	height: 200px;
+	display: grid;
+	grid-template-columns: repeat(2, 100px);
+	grid-template-rowss: repeat(2, 100px);
+	justify-content: repeat;
+	border: 2px solid aquamarine;
+}
 
-/* Your CSS Code here. */
+.item-1 {
+	border: 1px solid red;
+	background-color: red;
+}
+.item-2 {
+	border: 1px solid red;
+	background-color: blue;
+}
+.item-3 {
+	border: 1px solid red;
+	background-color: green;
+}
+.item-4 {
+	border: 1px solid red;
+	background-color: black;
+}
